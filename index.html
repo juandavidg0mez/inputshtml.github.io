@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formularios</title>
+</head>
+
+<body>
+    <h1>formularios</h1>
+    <form>
+        <fieldset>
+            <legend>Indique sus preferencias por favor</legend>
+            <label for="fecha">Elija una fehca:</label>
+            <input type="date" id="fecha" name="fehca"><br>
+
+            <label for="fichero">Escoja un fichero:</label>
+            <input type="file" id="fichero" name="fichero"><br>
+            <input type="radio" name="process" id="process">
+            <label for="process">AMD</label>
+            <input type="radio" name="process" id="process">
+            <label for="process">Intel i5</label>
+            <input type="radio" name="process" id="process">
+            <label for="process">Intel i7</label>
+        </fieldset>
+        <fieldset>
+            <legend>Indique sus preferencias por favor</legend>
+            <input type="radio" name="materias" id="materias">
+            <label for="materias">Matematicas</label>
+            <input type="radio" name="materias" id="materias">
+            <label for="materias">Historia</label>
+            <input type="radio" name="materias" id="materias">
+            <label for="materias">Geografia</label>
+            <input type="radio" name="materias" id="materias">
+            <label for="materias">Lengua</label> <br>
+
+
+            <label for="Nombre">Nombre:</label>
+            <input type="text" id="Nombre" name="Nombre"><br>
+            <label for="Apellidos">Apellidos:</label>
+            <input type="text" id="Apellidos" name="Apellidos"><br>
+            <label for="Direccion">Direccion:</label>
+            <input type="text" id="Direccion" name="Direccion">
+            <br><br>
+            <label for="color">Elija un color: </label>
+            <input type="color" name="color" id="color"><br>
+            <textarea id="comentario" name="comentario" rows="4" cols="50"
+                placeholder="utilice este cuadro para escribir"></textarea><br>
+            <label for="fecha">Elija una fehca:</label>
+            <input type="date" id="fecha" name="fehca"><br>
+            <!--el Label es el texto que va al lado de la casilla la que me dice que hacer El atributo id es un identificador único para el elemento, y el atributo name es el nombre que se utilizará cuando se envíe el formulario. -->
+            <select name="idiomas" id="idiomas">
+                <option value="idiomas">Ingles</option>
+                <option value="idiomas">Frances</option>
+                <option value="idiomas">Portugues</option>
+            </select>
+            <br>
+            <label for="hora">Elija un hora:</label>
+            <input type="time" name="hora" id="hora"><br>
+            <label for="fichero">Escoja un fichero:</label>
+            <input type="file" id="fichero" name="fichero"><br>
+            <input type="checkbox" id="sexo" name="sexo" value="sexo">
+            <label for="sexo">Mujer</label>
+            <input type="checkbox" id="sexo" name="sexo">
+            <label for="sexo">Hombre</label>
+            
+
+        </fieldset>
+
+    </form>
+
+</body>
+
+</html>
